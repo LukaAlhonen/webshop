@@ -4,7 +4,7 @@ import HeaderNavbar from './HeaderNavbar'
 const Header = (props) => (
   <div className='header swag-border'>
     <div id='logo-container'>
-      <img onClick={props.handleLogoClick} className='logo swag-border' alt='logo' src='http://127.0.0.1:8000/media/images/logo.png'></img>
+      <img onClick={props.handleLogoClick} className='logo swag-border' alt='logo' src='https://lukaswebshop.azurewebsites.net/media/images/logo.png'></img>
     </div>
     <Search search={props.search} />
     <HeaderNavbar 

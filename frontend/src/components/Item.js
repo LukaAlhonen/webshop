@@ -27,7 +27,7 @@ const Item = (props) => {
           {button}
       </div>
       <div className='image-container swag-border'>
-        <span className='helper'></span><img className='item-image' alt='img' src={'http://127.0.0.1:8000' + props.item.image}></img>
+        <span className='helper'></span><img className='item-image' alt='img' src={'https://lukaswebshop.azurewebsites.net' + props.item.image}></img>
       </div>
     </div>
   )
