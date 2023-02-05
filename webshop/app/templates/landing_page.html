@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html language="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Landing Page</title>
+        <style>
+            .top{
+                text-align: center;
+                border: 2px solid black;
+                border-radius: 8px;
+                margin: 10px;
+                padding: 10px;
+                display: flex;
+                background-color: #333333;
+            }
+            .img1{
+                border: 2px solid black;
+                border-radius: 8px;
+                width: 50%;
+                margin: 10px;
+            }
+            .img1:hover{
+                box-shadow: 0 0 5px 5px #9fb5c6;
+            }
+            .info-main{
+                border: 2px solid black;
+                border-radius: 8px;
+                text-align: center;
+                padding: 10px;
+                margin: 10px;
+                background-color: #333333;
+            }
+            .info-child{
+                border: 2px solid black;
+                border-radius: 8px;
+                text-align: center;
+                padding: 10px;
+                margin: 10px;
+                word-wrap: break-word;
+                background-color: white;
+            }
+            body{
+                background-color: white;
+                font-family: sans-serif;
+            }
+            #header{
+                border: 2px solid black;
+                border-radius: 8px;
+                background-color: #333333;
+                margin: 10px;
+                padding: 10px;
+                text-align: center;
+            }
+            #title{
+                border: 2px solid black;
+                border-radius: 8px;
+                background-color: white;
+                margin: 10px;
+                padding: 10px;
+                max-width: fit-content;
+                display:inline-flex;
+                color: black;
+            }
+            #abc{
+
+            }
+            #dynamic-info{
+                background-color: white;
+                color: black;
+            }
+            .btn{
+                color: white;
+                background-color: #333333;
+                border: 2px solid black;
+                border-radius: 8px;
+                font-size: 16px;
+                margin: 5px;
+                padding: 10px;
+            }
+            .btn:hover{
+                box-shadow: 0 0 5px 5px #9fb5c6;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="root">
+            <div id="header">
+                <h1 id="title">Welcome!</h1>
+            </div>
+            <div class="top">
+                <img class="img1" src="https://i.ytimg.com/vi/Kdyq3u2pfZQ/maxresdefault.jpg">
+                <img class="img1" src="https://i.ytimg.com/vi/Kdyq3u2pfZQ/maxresdefault.jpg">
+                <img class="img1" src="https://i.ytimg.com/vi/Kdyq3u2pfZQ/maxresdefault.jpg">
+            </div>
+            <div class="info-main" id="if">
+                <div class="info-child" id="dynamic-info">
+                    <h2>
+                        Blah balkalkmaslkmaslkd mlakmd lkamlkd maklsmdk la mlk dml kamd lkmal kdmml kam dlka msdlk
+                    </h2>
+                </div>
+                <div class="info-child">
+                    <h4>
+                        Delete all items and generate 6 new users and 30 new items
+                    </h4>
+                    <button class="btn">
+                        Generate
+                    </button>
+                </div>
+                <div class="info-child">
+                    <h4>
+                        By going to the store you accept our terms and conditions
+                    </h4>
+                    <a href="/shop">
+                        Go To snopp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
