@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = 'http://127.0.0.1:8000/api/items/'
+const baseUrl = 'https://lukaswebshop.azurewebsites.net/api/items/'
 
 const getFirstPage = (endpoint) => { 
   const request = axios.get(`${baseUrl}${endpoint}`)
