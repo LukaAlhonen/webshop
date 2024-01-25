@@ -1,0 +1,261 @@
+body {
+  background-color: #414760;
+}
+/* Swag */
+.swag-border {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.swag-btn {
+  color: white;
+  background-color: #333;
+  font-weight: bold;
+  font-size: 13.5px;
+  padding: 5px;
+}
+.swag-btn:hover {
+  background-color: #ff8000;
+  cursor: pointer;
+}
+
+/* Misc */
+.title {
+  text-align: center;
+  color: white;
+}
+.main {
+  margin: auto;
+  width: 1000px;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  padding: 10px;
+  width: 978px;
+  background-color: white;
+}
+.logo {
+  max-width: 150px;
+  border-radius: 10px;
+}
+.logo:hover {
+  cursor: pointer;
+  background-color: #ff8000;
+}
+.header-nv-link {
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px;
+}
+.search {
+  border: 2px solid black;
+  border-radius: 10px 0 0 10px;
+  padding: 5px;
+}
+.search:focus {
+  outline: none;
+}
+.search-btn {
+  border: 2px solid black;
+  border-left: none;
+  border-radius: 0 10px 10px 0;
+  padding: 5px;
+}
+.cart {
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  width: 250px;
+  padding: 10px;
+  height: fit-content;
+  display: none;
+  margin-left: 50px;
+}
+.cart-item-btn {
+  padding-left: 5px;
+}
+.cart-items {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.cart-item-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-weight: bold;
+}
+.logout-btn {
+  padding: 5px;
+}
+.username {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Shop item styles */
+.items-container {
+  width: 996px;
+  background-color: white;
+}
+.items {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.shop-item {
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #414760;
+  color: white;
+}
+.image-container {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  background-color: #333;
+}
+.helper {
+  display:inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.item-image {
+  width: 200px;
+  max-height: 180px;
+  vertical-align: middle; 
+}
+.item-btn {
+  padding: 5px;
+  margin-top: 5px;
+}
+.item-props {
+  margin: 5px;
+}
+
+/* pageNavbar styles */
+.page-nv {
+  width: fit-content;
+  padding: 0 3px 0 3px;
+  display: flex;
+  margin: 0 auto 10px auto ;
+  background-color: #414760;;
+}
+.page-nv button {
+  padding: 5px 10px 5px 10px;
+  margin: 5px 2px 5px 2px;
+}
+
+/* Sign up and Sign in styles */
+.auth-container {
+  width: fit-content;
+  margin: 10px auto 10px auto;
+  padding: 10px;
+  background-color: white;
+}
+.auth-input {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top:5px;
+}
+.auth-input input {
+  margin-left: 10px;
+  padding: 5px;
+}
+.auth-input input:focus {
+  outline: none;
+}
+.auth-btn {
+  display: flex;
+  margin: auto;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+/* My items styles */
+.forms {
+  display: flex;
+}
+.additem-form {
+  margin: 0 10px 10px 10px;
+  padding: 10px;
+  width: fit-content;
+  display: none;
+  background-color: white;
+}
+.additem-form button {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  flex-basis: 50%;
+}
+input[type="file"] {
+  display: none;
+}
+.image-upload  {
+  padding: 5px;
+}
+.upload-item-btn {
+  margin: 10px auto 0 auto;
+}
+.price-input {
+  margin-bottom: 10px;
+}
+.additem-button {
+  margin: 10px;
+}
+.placeholder {
+  padding: 10px;
+  background-color: white;
+}
+.my-items h2 {
+  text-decoration: underline;
+  color: white;
+}
+.edititem-form {
+  margin: 0 10px 10px auto;
+  padding: 10px;
+  width: fit-content;
+  display: none;
+  background-color: white;
+  flex-basis: 50%;
+  display: none;
+  max-width: 300px;
+}
+.edit-prop {
+  padding: 5px;
+  color: #545454;
+}
+
+
+/* Display cart */
+.show {
+  display: block;
+}
+.active {
+  background-color: #ff8000;
+}
+
+/* Test */
+.prop-container {
+  display: flex;
+  padding-bottom: 5px;
+}
+.prop-title {
+  padding-right: 5px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.prop-container-d {
+  padding-bottom: 5px;
+}

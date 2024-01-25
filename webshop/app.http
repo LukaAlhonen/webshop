@@ -1,0 +1,56 @@
+GET http://127.0.0.1:8000/api/items/
+
+###
+
+POST http://127.0.0.1:8000/api/items/
+Content-Type: application/json
+
+{
+  "name": "pissy mattress",
+  "description": "mattress with big piss stain",
+  "price": 10
+}
+
+###
+GET http://127.0.0.1:8000/api/items/a36f3104-ebe9-45be-b3f7-5620294f8856
+
+###
+
+POST http://127.0.0.1:8000/api/items/
+Content-Type: application/json
+
+{
+  "name": "heyo",
+  "description": "old yo-yo",
+  "price": 20,
+  "image": "/home/luka/Projects/webtech/web-shop-project-2022-LukaAlhonen/img1.jpg"
+}
+
+###
+
+GET http://127.0.0.1:8000/api/items/?page=2
+
+###
+
+DELETE http://127.0.0.1:8000/api/items/06140872-5c2f-49bb-8654-4e621d4b1a21/
+
+###
+
+POST http://127.0.0.1:8000/api/auth/signup/
+Content-Type: application/json
+
+{
+  "username": "jj",
+  "email": "jj@email.com",
+  "password": "123"
+}
+
+###
+
+POST http://127.0.0.1:8000/api/auth/signin/
+Content-Type: application/json
+
+{
+  "username": "esmi",
+  "password": "123"
+}
